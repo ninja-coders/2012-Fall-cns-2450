@@ -2,7 +2,7 @@
 
 namespace TDDSample
 {
-  class FactorialApplication
+  public class FactorialApplication
   {
     static void Main(string[] args)
     {
@@ -13,13 +13,20 @@ namespace TDDSample
       int factorialNumber = 0;
       int.TryParse(Console.ReadLine(), out factorialNumber);
 
-      int sum = 0;
-      for (int i = 0; i < factorialNumber; ++i)
+      int sum = Factorial(factorialNumber);
+
+      Console.WriteLine("Factorial Value is {0}", sum);
+      Console.ReadLine();
+    }
+
+    public static int Factorial(int factorialNumber)
+    {
+      int sum = 1;
+      for (int i = 1; i <= factorialNumber; ++i)
       {
         sum *= i;
       }
-      Console.WriteLine("Factorial Value is {0}", sum);
-      Console.ReadLine();
+      return sum;
     }
   }
 }
