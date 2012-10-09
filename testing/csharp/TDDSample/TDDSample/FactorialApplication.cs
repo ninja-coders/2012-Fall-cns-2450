@@ -2,7 +2,7 @@
 
 namespace TDDSample
 {
-  class Program
+  class FactorialApplication
   {
     static void Main(string[] args)
     {
