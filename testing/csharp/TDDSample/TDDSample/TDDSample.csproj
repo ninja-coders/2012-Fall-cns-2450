@@ -45,6 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FactorialApplication.cs" />
+    <Compile Include="IInputOutput.cs" />
+    <Compile Include="IMathOperations.cs" />
+    <Compile Include="MathOperations.cs" />
     <Compile Include="PascalTriangle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
