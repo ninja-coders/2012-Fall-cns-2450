@@ -54,6 +54,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WithdrawalTransactionTests.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UnitTestingAssignment\UnitTestingAssignment.csproj">
+      <Project>{7e9ee5db-b470-4738-a3ef-7117c8aa1d4b}</Project>
+      <Name>UnitTestingAssignment</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
