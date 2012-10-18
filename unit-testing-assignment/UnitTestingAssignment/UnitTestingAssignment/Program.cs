@@ -7,14 +7,10 @@ namespace UnitTestingAssignment
 {
   class Program
   {
+    // This is the main program.... I have filled out the shell of what should run.... 
+    //   the rest is up to you..... 
     static void Main(string[] args)
     {
-      // This is a sample of the main program..... But don't think your program is complete
-      //   just because this main will work, as I will test the program with a different main method
-      //   so, fill in the tests and once you have completed those all successfully
-      //   then this should run successfully.  If this fails, then look back at your tests and make sure
-      //   you didn't miss anything. 
-
       IInputOutput io = new InputOutput();
       ITransactionFactory transactionFactory = new TransactionFactory();
       IAccountFactory accountFactory = new AccountFactory();

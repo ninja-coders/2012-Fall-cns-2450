@@ -1,4 +1,6 @@
 ﻿using NUnit.Framework;
+using Rhino.Mocks;
+using UnitTestingAssignment.YouComplete;
 
 namespace UnitTestingAssignmentTests
 {
